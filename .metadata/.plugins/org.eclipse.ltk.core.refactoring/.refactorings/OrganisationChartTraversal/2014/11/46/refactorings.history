@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.stephen.bt.ReadTxtFile&apos; to &apos;OrgChartTxtFileReader&apos;&#x0A;- Original project: &apos;OrganisationChartTraversal&apos;&#x0A;- Original element: &apos;com.stephen.bt.ReadTxtFile&apos;&#x0A;- Renamed element: &apos;com.stephen.bt.OrgChartTxtFileReader&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReadTxtFile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.stephen.bt{ReadTxtFile.java[ReadTxtFile" matchStrategy="1" name="OrgChartTxtFileReader" qualified="false" references="true" similarDeclarations="false" stamp="1415659915667" textual="false" version="1.0"/>
+</session>
