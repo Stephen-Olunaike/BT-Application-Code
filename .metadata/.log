@@ -24,3 +24,16 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product adtproduct -
 
 !ENTRY org.eclipse.ui 2 2 2014-11-10 22:51:31.177
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-11-10 23:06:06.370 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product adtproduct -keyring /Users/Stephen/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product adtproduct -keyring /Users/Stephen/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.app 0 0 2014-11-10 23:06:08.595
+!MESSAGE Product adtproduct could not be found.
+
+!ENTRY org.eclipse.ui 2 2 2014-11-10 23:06:43.873
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)

@@ -4,16 +4,17 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadTxtFile {
+public class OrgChartTxtFileReader {
 
 	private String file_path;
 	
-	public ReadTxtFile(String filePath) {
+	public OrgChartTxtFileReader(String filePath) {
 		
 		this.file_path = filePath;
 		
 	}
 	
+	// externally sourced
 	public String[] Openfile() throws IOException {
 		
 		FileReader fileReader = new FileReader(file_path);
@@ -30,6 +31,7 @@ public class ReadTxtFile {
 		return textData;
 	}
 	
+	// externally sourced
 	private int readLines() throws IOException {
 		
 		FileReader file = new FileReader(file_path);

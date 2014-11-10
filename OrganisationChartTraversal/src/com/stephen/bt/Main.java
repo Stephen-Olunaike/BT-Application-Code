@@ -12,12 +12,12 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		String file_name = "Users/Stephen/Desktop/input.txt";//args[0];
-		String a = "Batman";//args[1];
-		String b = "Catwoman";//args[2];
+		String file_name = args[0];
+		String a = args[1];
+		String b = args[2];
 		
 		try {
-			ReadTxtFile mRead = new ReadTxtFile(file_name);
+			OrgChartTxtFileReader mRead = new OrgChartTxtFileReader(file_name);
 			String[] lines = mRead.Openfile();
 			ArrayList<OrgChartElement> mElements = new ArrayList<OrgChartElement>();
 			
